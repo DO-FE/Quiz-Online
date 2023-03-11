@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="QuizOnline" path="/OnlineQuiz">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" maxActive="1000000" maxIdle="50000" maxWait="100000000" name="jdbc/QuizOnline" password="P@ssword123" type="javax.sql.DataSource" url="jdbc:sqlserver://192.168.1.2:1433;databaseName=QuizOnline;sslProtocol=TLSv1.2;encrypt=false;trustServerCertificate=true;" username="sa"/>
+</Context>
